@@ -1,5 +1,6 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+  <img width="71" alt="Logo" src="https://github.com/raykipkorir/portfolio/assets/93333555/24dbc64c-d820-4c4b-a1d0-b3888dcbdcd0">
+
 </div>
 <h1 align="center">
   raykipkorir.netlify.app
@@ -13,7 +14,7 @@
   </a>
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
+<img width="960" alt="portfolio" src="https://github.com/raykipkorir/portfolio/assets/93333555/b516162c-c261-476a-a00f-3c7886051064">
 
 ## 🛠 Installation & Set Up
 
