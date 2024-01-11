@@ -267,7 +267,7 @@ const Blogs = () => {
               }
               tech
               github
-              external
+              link
             }
             html
           }
@@ -301,8 +301,7 @@ const Blogs = () => {
         {blogs &&
           blogs.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { link, title, tech } = frontmatter;
-
+            const { title, link, tech } = frontmatter;
             return (
               <StyledBlog key={i} ref={el => (revealBlogs.current[i] = el)}>
                 <div className="project-content">
