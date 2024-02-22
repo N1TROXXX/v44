@@ -70,17 +70,13 @@ const Hero = () => {
       </p>
     </>
   );
-  // const five = (
-  //   <a
-  //     className="email-link"
-  //     href="https://www.newline.co/courses/build-a-spotify-connected-app"
-  //     target="_blank"
-  //     rel="noreferrer">
-  //     Check out my course!
-  //   </a>
-  // );
+  const five = (
+    <a className="email-link" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+      Resume
+    </a>
+  );
 
-  const items = [one, two, three, four];
+  const items = [one, two, three, four, five];
 
   return (
     <StyledHeroSection>
