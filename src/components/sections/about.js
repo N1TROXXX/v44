@@ -137,10 +137,14 @@ const About = () => {
           <div>
             <p>
               Hello there! My name is Avaneesh and I am a software developer with a passion for technology and data.
+              </p>
+              <p>
               This summer, I had the exciting opportunity to intern at{' '}<a href="https://www.citizensfla.com/">Citizens Property Insurance Corporation</a>, 
               where I leveraged my passion for AI to create a cutting-edge Retrieval Augmented Generation (RAG) Q&A chatbot powered by LLM. 
               This innovative chatbot was designed to transform the way financial and budget data is accessed and analyzed within the company enhancing real-time analysis capabilities.
               My work aimed to empower the organization with advanced AI tools, driving better business outcomes through intelligent data management.
+              </p>
+              <p>
               Prior to this, I spent 3 years at{' '}
               <a href="https://www.tcs.com/">Tata Consultancy Services</a>. I worked as a Full Stack Developer for {' '}<a href="https://investor.vanguard.com/corporate-portal">The Vanguard Group</a>. 
               While working there, I gained expertise in building cloud solutions
@@ -154,12 +158,10 @@ const About = () => {
               my capstone undergrad project at{' '}<a href="https://www.symphonytech.com/" target="_blank" rel="noreferrer">Symphony Technologies Private Limited</a>.
               There, I developed an application for defect detection in fuse box assemblies using object detection and neural networks.
             </p>
-
             <p>
               Outside the tech world, I love biking, I am a huge Star Wars fan and actively follow sports.
               I am an avid football fan, with a heart devoted to FC Barcelona, and equally enthusiastic about Formula One racing.              
             </p>
-
             <p>
             I'm excited to bring my technical skills and passion for innovation to new challenges and opportunities. 
             If you're looking for someone who combines a strong technical foundation with a drive for cutting-edge solutions, let's connect!:{' '}<a href={`mailto:${email}`}>Say Hi!</a>
