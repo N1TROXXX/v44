@@ -164,7 +164,7 @@ const About = () => {
             </p>
             <p>
             I'm excited to bring my technical skills and passion for innovation to new challenges and opportunities. 
-            If you're looking for someone who combines a strong technical foundation with a drive for cutting-edge solutions, let's connect!:{' '}<a href={`mailto:${email}`}>Say Hi!</a>
+            If you're looking for someone who combines a strong technical foundation with a drive for cutting-edge solutions,{' '}<a href={`mailto:${email}`}>let's connect!</a>
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
