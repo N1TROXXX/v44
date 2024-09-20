@@ -4,7 +4,7 @@ title: 'Sr QA Engineer'
 company: 'Dunzo'
 location: 'Bengaluru,India'
 range: 'April - Oct 2021'
-url: 'https://www.dunzo.com/'
+url: 'https://www.dunzo.com'
 ---
 
 - Developed and styled interactive web applications for Apple Music using Ember and SCSS
