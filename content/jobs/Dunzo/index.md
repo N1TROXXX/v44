@@ -1,10 +1,10 @@
 ---
 date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+title: 'Sr QA Engineer'
+company: 'Dunzo'
+location: 'Bengaluru,India'
+range: 'April - Oct 2021'
+url: 'https://www.dunzo.com/'
 ---
 
 - Developed and styled interactive web applications for Apple Music using Ember and SCSS
