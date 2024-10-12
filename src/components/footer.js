@@ -85,6 +85,7 @@ const Footer = () => {
           stars: stargazers_count,
           forks: forks_count,
         });
+        githubInfo;
       })
       .catch(e => console.error(e));
   }, []);
@@ -105,6 +106,13 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
+        <a href="https://github.com/AyoubFrihaoui/Portfolio">
+          <div>Forked by Ayoub FRIHAOUI</div>
+        </a>
+      </StyledCredit>
+
+      {/*<StyledCredit tabindex="-1">
+        
         <a href="https://github.com/bchiang7/v4">
           <div>Designed &amp; Built by Brittany Chiang</div>
 
@@ -121,7 +129,7 @@ const Footer = () => {
             </div>
           )}
         </a>
-      </StyledCredit>
+      </StyledCredit> */}
     </StyledFooter>
   );
 };
