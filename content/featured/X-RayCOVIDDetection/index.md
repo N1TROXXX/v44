@@ -1,16 +1,22 @@
 ---
 date: '4'
-title: 'X-Ray COVID Detection'
+title: 'X-Ray COVID Classification - Transfer Learning'
 cover: './demo.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+external: 'https://github.com/AyoubFrihaoui/Deep-Learning-Labs/blob/main/Lab%204%20-%20Transfer%20Learning/final%20notebook.ipynb'
+cta: 'https://github.com/AyoubFrihaoui/Deep-Learning-Labs/blob/main/Lab%204%20-%20Transfer%20Learning/final%20notebook.ipynb'
 tech:
-  - React
-  - Express
-  - Spotify API
-  - Styled Components
+  - Python
+  - Tensorflow
+  - Keras
+  - Jupyter Notebook
 ---
 
-Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
+The [Chest X-ray dataset from Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) was utilized, consisting of four classes (COVID,
+Lung_Opacity, Normal, Viral Pneumonia). Data preprocessing involved normalization and
+a stratified hold-out strategy to split the dataset into 70% for training and 30% for
+validation. Three transfer learning models were developed using the MobileNetV2
+architecture with ImageNet pre-trained weights:
 
-Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.
+- Model 1: Retrained the last 3 fully connected layers.
+- Model 2: Retrained the last convolutional layer and the 3 fully connected layers.
+- Model 3: Retrained the last 2 convolutional layers and the 3 fully connected layers.

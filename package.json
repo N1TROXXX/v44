@@ -1,11 +1,12 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "Portfolio v4 forked",
+  "description": "Personal Website V4 forked",
   "version": "1.0.0",
   "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "forker": "Ayoub FRIHAOUI <a.frihaoui@esi-sba.dz>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/AyoubFrihaoui/Portfolio"
   },
   "keywords": [
     "gatsby"
